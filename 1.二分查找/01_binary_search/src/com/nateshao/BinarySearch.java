@@ -9,7 +9,7 @@ package com.nateshao;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description：
+ * Description：二分查找
  */
 public class BinarySearch {
     public static void main(String[] args) {

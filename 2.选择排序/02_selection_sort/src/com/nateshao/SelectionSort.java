@@ -22,10 +22,8 @@ public class SelectionSort {
         for (int i = 0; i < size; i++) {
             int smallest = findSmallest(arr);
             newArr.add(arr.get(smallest));
-
             arr.remove(smallest);
         }
-
         return newArr;
     }
 

@@ -22,7 +22,7 @@ public class SelectionSort {
         int size = arr.size();
         for (int i = 0; i < size; i++) {
             int smallest = findSmallest(arr);
-            newArr.add(arr.get(smallest));
+            newArr.add(arr.get(smallest));//找出数组中最小的元素，并将其加入到新数组中
             arr.remove(smallest);
         }
         return newArr;

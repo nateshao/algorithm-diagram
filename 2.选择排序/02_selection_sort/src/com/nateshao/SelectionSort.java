@@ -29,8 +29,8 @@ public class SelectionSort {
     }
 
     private static int findSmallest(List<Integer> arr) {
-        int smallest = arr.get(0);
-        int smallestIndex = 0;
+        int smallest = arr.get(0);  //存储最小的值
+        int smallestIndex = 0;      //存储最小元素的索引
         for (int i = 0; i < arr.size(); i++) {
             if (arr.get(i) < smallest) {
                 smallest = arr.get(i);
@@ -44,4 +44,13 @@ public class SelectionSort {
         List<Integer> arr = new ArrayList<>(Arrays.asList(5, 3, 6, 2, 10));
         System.out.println(selectionSort(arr)); //[2, 3, 5, 6, 10]
     }
+    /**
+     * 计算机内存犹如一大堆抽屉。
+     * 需要存储多个元素时，可使用数组或链表。
+     * 数组的元素都在一起。
+     * 链表的元素是分开的，其中每个元素都存储了下一个元素的地址。
+     * 数组的读取速度很快。
+     * 链表的插入和删除速度很快。
+     * 在同一个数组中，所有元素的类型都必须相同（都为int、double等）
+     */
 }

@@ -12,6 +12,7 @@ import java.util.List;
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
  * Description：选择排序
+ * 编写一个用于找出数组中最小元素的函数
  */
 public class SelectionSort {
 

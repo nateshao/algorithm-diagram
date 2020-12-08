@@ -1,8 +1,5 @@
 package com.nateshao;
 /**
- * 如果你不明白其优缺点，这些实现将毫无用处
- */
-/**
  * @date Created by 邵桐杰 on 2020/12/3 22:15
  * @微信公众号 千羽的编程时光
  * @个人网站 www.nateshao.cn
@@ -10,6 +7,7 @@ package com.nateshao;
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
  * Description：二分查找
+ * 如果你不明白其优缺点，这些实现将毫无用处
  */
 public class BinarySearch {
     public static void main(String[] args) {
